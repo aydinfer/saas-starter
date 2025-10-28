@@ -79,6 +79,14 @@
   body {
     font-family: "Manrope", Arial, Helvetica, sans-serif;
   }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 @layer base {
